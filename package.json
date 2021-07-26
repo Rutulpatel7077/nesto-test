@@ -3,13 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "axios": "^0.21.1",
+    "history": "^5.0.0",
+    "i18next": "^20.3.5",
+    "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-i18next": "^11.11.3",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^6.0.0-beta.0",
     "react-scripts": "4.0.3",
+    "react-select": "^4.3.1",
+    "react-tooltip": "^4.2.21",
+    "styled-components": "^5.3.0",
+    "styled-react-modal": "^2.1.0",
     "web-vitals": "^1.0.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10"
   },
   "scripts": {
     "start": "react-scripts start",
