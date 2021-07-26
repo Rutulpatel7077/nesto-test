@@ -1,5 +1,5 @@
-import HomePage from "./Home.page";
-import DetailsPage from "./Details.page";
+import HomePage from "./Home/Home.page";
+import DetailsPage from "./Details/Details.page";
 import NotFound from "./NotFound.page";
 
 export {

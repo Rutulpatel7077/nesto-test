@@ -8,7 +8,7 @@ const routes = [
     element: <DashboardLayout />,
     children: [
       {
-        path: "",
+        path: "/",
         element: <HomePage />,
       },
       {

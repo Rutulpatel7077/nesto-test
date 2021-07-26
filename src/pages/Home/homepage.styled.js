@@ -36,10 +36,9 @@ const ProductsWrapper = styled.div`
   align-content: flex-start;
 `;
 
-const Belt = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  `;
 
-export { PageWrapper, Belt, SideBarWrapper, ProductsWrapper, MainContentWrapper };
+const LoadingWrapper = styled.div`
+ padding-left: 18px;
+`
+
+export { PageWrapper, LoadingWrapper, SideBarWrapper, ProductsWrapper, MainContentWrapper };

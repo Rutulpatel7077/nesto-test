@@ -8,9 +8,9 @@ import {
   DetailsPageWrapper,
   FormWrapper,
   Input,
-} from "./styled-components/detailspage.styled";
+} from "./detailspage.styled";
 import Axios from "src/utils/Axios";
-import { PageWrapper } from "./styled-components/homepage.styled";
+import { PageWrapper } from "../Home/homepage.styled";
 
 const DetailsPage = () => {
   const [state, setState] = useState({

@@ -39,7 +39,7 @@ const ItemWrapper = styled.div`
  * @param {Array} props.types array of options
  * @param {func} onChange onChange function
  * @param {string} label title for switch
- * @param {bool} selected selected value
+ * @param {string} selected selected value
  *
  * @returns {React.Component} Switch component
  */
@@ -72,7 +72,7 @@ const Switch = ({ types, onChange, label, selected }) => {
 Switch.propTypes = {
   label: PropTypes.string,
   onChange: PropTypes.func,
-  selected: PropTypes.bool,
+  selected: PropTypes.string,
   types: PropTypes.arrayOf(
     PropTypes.shape({
       label: PropTypes.string,
